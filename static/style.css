@@ -1,0 +1,255 @@
+
+/* CSS Details */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+/* Body */
+
+body{
+
+    font-family:Arial, Helvetica, sans-serif;
+
+    background:#eceff3;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    height:100vh;
+
+}
+
+
+/* Main Container */
+
+.container{
+
+    width:430px;
+
+    height:700px;
+
+    background:white;
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+
+/* Header */
+
+.header{
+
+    background:#2563eb;
+
+    color:white;
+
+    padding:18px;
+
+    text-align:center;
+
+}
+
+.header h1{
+
+    font-size:26px;
+
+}
+
+.header p{
+
+    margin-top:8px;
+
+    font-size:14px;
+
+}
+
+
+/* Chat Box */
+
+.chat-box{
+
+    flex:1;
+
+    padding:20px;
+
+    overflow-y:auto;
+
+    background:#f7f8fa;
+
+}
+
+
+/* Message */
+
+.message{
+
+    max-width:80%;
+
+    margin-bottom:18px;
+
+    padding:14px;
+
+    border-radius:12px;
+
+    line-height:1.6;
+
+    word-wrap:break-word;
+
+}
+
+
+/* User */
+
+.user{
+
+    background:#2563eb;
+
+    color:white;
+
+    margin-left:auto;
+
+}
+
+
+/* Bot */
+
+.bot{
+
+    background:white;
+
+    border:1px solid #dddddd;
+
+}
+
+
+/* Input Area */
+
+.input-area{
+
+    display:flex;
+
+    padding:16px;
+
+    border-top:1px solid #dddddd;
+
+    background:white;
+
+}
+
+
+/* Input Box */
+
+.input-area input{
+
+    flex:1;
+
+    padding:14px;
+
+    font-size:16px;
+
+    border:1px solid #cccccc;
+
+    border-radius:10px;
+
+    outline:none;
+
+}
+
+
+/* Input Focus */
+
+.input-area input:focus{
+
+    border-color:#2563eb;
+
+}
+
+
+/* Button */
+
+.input-area button{
+
+    margin-left:10px;
+
+    padding:14px 20px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:#2563eb;
+
+    color:white;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+}
+
+
+/* Button Hover */
+
+.input-area button:hover{
+
+    background:#1d4ed8;
+
+}
+
+
+/* Scrollbar */
+
+::-webkit-scrollbar{
+
+    width:8px;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#c5c5c5;
+
+    border-radius:20px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:#eeeeee;
+
+}
+
+
+/* Responsive */
+
+@media(max-width:500px){
+
+.container{
+
+    width:96%;
+
+    height:96vh;
+
+}
+
+.header h1{
+
+    font-size:22px;
+
+}
+
+}
